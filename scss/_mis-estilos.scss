@@ -13,7 +13,9 @@ header {
 
 }
 
-
+#alturaIndex{
+   margin-bottom: 300px;
+}
 
    
     .bacgroudIndex {
@@ -116,9 +118,12 @@ header {
 
 /* -------------------------------- CRUCEROS -------------------------------- */
 
-
+#alturaCrucero{
+    height: 350vh;
+} 
 
 main {
+  
 
 
     .backgroudCrucero {
@@ -325,4 +330,17 @@ main {
 #tamReserva{
 height: 100vh;
 
+}
+
+/* ---------------------------------- LOGIN --------------------------------- */
+
+#alturaLog{
+height: 150vh;
+
+}
+
+/* ----------------------------- CREANDO USUARIO ---------------------------- */
+
+#altura{
+    height: 125vh;
 }
