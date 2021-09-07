@@ -1,0 +1,26 @@
+# esto ignora toda la carpeta node_modules
+node_modules/
+
+.DS_Store
+
+img/.DS_Store
+
+#Este es un ejemplo de .gitignore file:
+
+# ignora todo .a files
+*.a
+
+# pero haz clic en lib.a, aunque estás ignorando. un archivo arriba
+!lib.a
+
+# solo ignore el archivo de TODO en el directorio actual, no Subdir / TODO
+/TODO
+
+# Ignorar todos los archivos en cualquier directorio llamado Construir
+build/
+
+# ignorar doc / notas.txt, pero no doc / servidor / arch.txt
+doc/elnombre.png
+
+# ignorar todos los archivos .pdf en el Doc / directorio y cualquiera de sus subdirectorios
+doc/**/*.pdf
