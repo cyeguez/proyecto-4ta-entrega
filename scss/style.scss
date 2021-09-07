@@ -1,0 +1,30 @@
+
+@import "./mis-estilos";
+@import "./medias";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+@import "./footer";
+
+
+body{
+    margin:0 ;
+    pad: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.justificado{
+    text-align: justify;
+}
+
+
+
+ul{
+    li{
+        list-style: none;
+    }   a{
+        text-decoration: none;
+        color: white;
+    }
+}
+

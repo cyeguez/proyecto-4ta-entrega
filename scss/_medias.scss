@@ -1,0 +1,237 @@
+
+
+/* -------------------MEDIAQUERIES--------------------- */
+/* -------------------------------------------------------------------------- */
+/*                               PANTALLA CHICA  INICO                           */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width:575.98px) {
+    body {
+      background-color: rgb(255, 118, 118);
+  
+  
+    }
+  
+    .widget1 {
+      display: block;
+  
+  
+    }
+  
+    .iconsRedes {
+      display: none;
+    }
+  
+    .mediosPagos p {
+      display: none;
+    }
+  
+    .seccionAyudaIndex {
+      margin-left: 0;
+  
+  
+  
+    }
+  
+    .seccionAyudaIndex li a {
+      font-weight: normal;
+      font-size: 12px;
+      ;
+  
+    }
+  
+    .tarjetas {
+      margin: 0 auto;
+    }
+  
+    #tcd {
+      display: none;
+    }
+  
+    /* -------------------------------- CRUCEROS -------------------------------- */
+    #tamPrecio{
+      font-size: .6em;
+    }
+
+
+
+
+
+
+  
+    .estucturaContacto {
+      display: grid;
+      grid-template-areas:
+  
+        " p3  "
+        "p4 "
+        "p5"
+        " p6 "
+      ;
+  
+    }
+  
+    .list-group {
+      width: 90%;
+      display: flex;
+      margin: 0 auto;
+    }
+  
+    .cuerpoNosotros p {
+      width: 100%;
+      font-size: x-small;
+    }
+  
+    .intro-contactanos {
+      
+      text-align: justify;
+  
+    }
+    
+    .tam{
+      font-size: 9px;
+      
+    }
+
+    
+
+    .tam-font{
+      font-size: 12px;
+      text-align: start;
+  }
+  
+
+  }
+  
+  
+  
+  
+  /* -------------------------------------------------------------------------- */
+  /*                               PANTALLA TABLET   INICIO                        */
+  /* -------------------------------------------------------------------------- */
+  
+  @media (min-width:576px) and (max-width:767.98px) {
+    body {
+      background-color: rgb(115, 250, 171);
+    }
+  
+    .widget1 {
+      display: block;
+    }
+  
+    .iconsRedes {
+      display: none;
+    }
+  
+    .botonPrecio {
+      width: 200px;
+  
+  
+    }
+  
+    .card #tamPrecio {
+      margin: 0 auto;
+      width: 400px;
+    }
+  
+    .estucturaContacto {
+      display: grid;
+      grid-template-areas:
+  
+        " p3  "
+        "p4 "
+        "p5"
+        " p6 "
+      ;
+  
+    }
+  
+    .list-group {
+      width: 85%;
+    }
+  
+    #mapa {
+      display: flex;
+      justify-content: start;
+      ;
+    }
+  
+    .cuerpoNosotros p {
+      width: 100%;
+      font-size: small;
+      text-align: justify;
+      margin: 30 auto;
+    }
+
+    
+    .tam-font{
+      font-size: 14px;
+      text-align: start;
+  }
+
+
+  
+  }
+  
+  /* -------------------------------------------------------------------------- */
+  /*                               PANTALLA TABLET                           */
+  /* -------------------------------------------------------------------------- */
+  
+  
+  @media (min-width:768px) and (max-width:991.98px) {
+    body {
+      background-color: rgb(235, 181, 111);
+  
+    }
+  
+    .botonPrecio {
+      width: 100px;
+  
+  
+    }
+  
+    .cuerpoNosotros p {
+      width: 70%;
+      font-size: medium;
+      text-align: justify;
+      margin: 20px auto;
+  
+    }
+  
+  
+  }
+  
+  /* -------------------------------------------------------------------------- */
+  /*                            LAPTOP                        */
+  /* -------------------------------------------------------------------------- */
+  
+  @media(min-width:992px) and (max-width:1999.98px) {
+    .card #tamPrecio {
+      margin: 0 auto;
+      width: 400px;
+    }
+  
+    .cuerpoNosotros p {
+      width: 80%;
+      text-align: justify;
+      font-size: x-large;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  
+    .intro-contactanos {
+      width: 50%;
+    text-align: justify;
+    }
+  
+  
+    /* ------------------------------ CONTATACTANOS ----------------------------- */
+    
+    .lineaVer{
+      border-left: solid gray;
+      margin-top: 5px;
+      
+  
+  }
+
+  }

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="En mi Web Site Contáctanos, a través de tu Nombre y el  email puedes contactarnos  seleccionando en asunto el motivo , existe una caja que te permite escribir en detalle el motivo de tu consulta, también puedes observar nuestra dirección en forma escrita o en el mapa, también está el contacto telefónico ">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+  <title>CONTACTO</title>
+</head>
+
+<body>
+
+
+
+  <header>
+    <div class=" container-fluid barraTop">
+    </div>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/LOGO.svg" width="150px" height="100px" alt=" logo empresa"
+          class="d-iline-block align-center">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./hoteles.html">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cruceros.html">Cruceros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./mis-reservas.html">Mis reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contactanos.html">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./acerca-de-nosotros.html">About</a>
+          </li>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </li>
+
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" data-dashlane-rid="79fc4d2a4c7e3c72" data-form-type="">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"
+            data-dashlane-rid="ec40ed41cd7a4102" data-form-type="">
+        </form>
+        <div class="text-end">
+          <a class="btn btn-outline-light me-2" href="./login.html" role="button">Login</a>
+          <a class="btn btn-warning" href="./crear-usuario.html" role="button">Sign-up</a>
+        </div>
+      </div>
+  </nav>
+
+
+
+
+
+  <main  id="tamCont">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-12 mx-0 col-md-8 mx-md-auto  col-lg-7   ">
+          <h1 class="fs-3 pt-5 text-center ">¿En qué te podemos ayudar? </h1>
+          <p class="fs-6  text-center" id="intro-contactanos">¿Tienes dudas?, contáctanos a través de cualquiera de
+            los canales que hemos dispuesto.
+          </p>
+          <form action="" class="">
+            <div class=" col-lg-7 mx-auto mb-3 ">
+              <label for="nombre" class="form-label">Nombre y apellido</label>
+              <input type=" text" required name="nombre" id="nombre" class="form-control">
+            </div>
+            <div class="col-lg-7 mx-auto mb-3">
+              <label for="correo" class="form-label">Email</label>
+              <input type="text" name="correo" id="correo" class="form-control">
+            </div>
+            <div class=" col-lg-7 mx-auto mb-3 ">
+              <select class="form-select w-100">
+                <option selected>Asunto:</option>
+                <option value="peticion">Solicitud</option>
+                <option value="duda">Duda</option>
+                <option value="queja">Queja</option>
+                <option value="error">Error y fallos</option>
+                <option value="sugerencia">Sugerencias</option>
+                <option value="reclamo">Reclamo</option>
+              </select>
+            </div>
+
+            <div class=" col-lg-7 mx-auto mb-3">
+              <label for="mensaje" class="form-label  ">Descripción</label>
+              <textarea name="mensaje" class="form-control " id="areaDescripcion"></textarea>
+
+            </div>
+
+            <div class="col-lg-7 mx-auto ">
+              <button type="submit " class="btn btn-primary me-3">Enviar</button>
+              <button type="reset " class="btn btn-danger">Reset</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-12 col-md-8 mx-md-auto col-lg-5  lineaVer">
+          <aside>
+
+
+            <div class=" col-lg-12 pt-4    ">
+              <ul class="list-group w-100  mb-3">
+                <li class="list-group-item">
+                  <h3 class="fs-3">La serena</h3>
+                </li>
+                <li class="list-group-item iconoDireccion"><img src="../imagenes/ubicacion.png"
+                    alt="icono de dirección">
+                  Avda. Raul Salamanca
+                  Jorquera 1650 </li>
+                <li class="iconoFono list-group-item"> <img src="../imagenes/fono.ico" alt="Icono de teléfono"> Fono 800
+                  123-45-678</li>
+                <li class="iconoUbicacion list-group-item""><img src=" ../imagenes/googmap.ico"
+                  alt="icono de ubicación"> Ver
+                  mapa </li>
+
+              </ul>
+
+              <div class="  col-lg-12 "  ">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.9833687078644!2d-71.23570928457683!3d-29.922380981926967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cb3c40f889cd%3A0x2556ae2b979ad2d1!2sCondominio%20Serena%20Oriente!5e0!3m2!1ses-419!2scl!4v1626559857675!5m2!1ses-419!2scl"
+                  width=100% height="300" style="border-radius: 5px;" allowfullscreen="" id="mapa loading="lazy"></iframe></li>
+              </div>
+            </div>
+          </aside>
+
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </main>
+
+  <section class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 col-11">
+
+        <div class=" w-75 text-light ms-5 ">
+          <img src="../imagenes/LogoMakr-1TST8n_auto_x2.png" width="200" height="100" alt="logo empresa"
+            class="img-fluid" />
+          <p class="tam-font">Danos el placer de llevarte a tu paraíso ideal, planifica tu viaje, en avión o recorre el
+            mar visitando los sitios turísitos mas hermosos del mundo, decide donde dormir, donde comer, que hacer, ten
+            el control de tu viaje, viaja con Travel Paraíso.</p>
+        </div>
+
+        <div class="container ms-4">
+          <img src="../imagenes/redes.svg" width="100px" height="100x" alt="" class="img-fluid">
+        </div>
+
+
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-12 mx-auto mt-3 fw-light    ">
+        <p class="text-light border-start border-warning ps-3">Navegación </p>
+        <ul class="border-start border-secondary ps-3 tam-font">
+          <li class=" "><a href="../index.html" class="#"> Vuelos</a></li>
+          <li class=""><a href="./hoteles.html" class="#"> Hoteles</a></li>
+          <li class=""><a href="./cruceros.html" class="#"> Cruceros</a></li>
+          <li class=""><a href="./mis-reservas.html" class="#"> Mis reservas</a></li>
+          <li class=""><a href="./contactanos.html" class="#"> Contactanos</a></li>
+          <li class=""><a href="./centro-ayuda.html" class="#"> Ayuda</a></li>
+          <li class=""><a href="./Terminos y condicines genereales.html" class="#"> Términos y condiciones</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-light   mt-3 ">
+        <p class="border-start border-warning ps-4 mb-2 "> Contacto</p>
+        <ul class="border-start border-secondary tam-font ">
+          <li class="border-bottom mb-2 w-75 "><img src="../imagenes/telefono-blanco.svg" width="20px"
+              alt="icono de teléfono" class="img-fluid mb-2 "> Teléfono: 800 123-45-678</li>
+          <li class="border-bottom w-75 "><img src="../imagenes/email.svg" width="20px" alt="icono de correo"
+              class="text-break"> Email: TravelParaiso@paraiso.com . </li>
+          <li class="  pt-2"><img src="../imagenes/ubicacion.svg" width="20px" alt="icono de ubicación"> ubicación: Avda Raul
+            Salamanca Jorquera 1650</li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center container-fluid">
+    <div class="container-fluid  ">
+      <hr>
+
+      <p> © copyright &copy; 2019-2023 Travel Paraíso, todos los derechos
+        reservados.</p>
+    </div>
+  </footer>
+
+
+
+  <!-- IMPORTANDO JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>

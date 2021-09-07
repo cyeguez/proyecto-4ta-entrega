@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="En mi Web Site Vuelos puedes encontrar salidas areas, el viaje de tus sueños desde un lugar de origen y un lugar de llegada que elijas, fechas, puedes ver fotografias, medios de pagos, información de planes,números de contactos,  redes sociales y mucho mas.. ">
+  <meta name="keywords" content="Encuentra, Viajes, turismo, destinos, Fotografías ">
+ <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css"
+   <!-- IMPORTANDO LIBRERIA DE ANIMACIONES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Vuelos</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid barraTop">
+
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./imagenes/LOGO.svg" width="150px" height="100px" alt=" logo empresa"
+          class="d-iline-block align-center">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Vuelos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./secciones/hoteles.html">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/cruceros.html">Cruceros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/mis-reservas.html">Mis reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/contactanos.html">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/acerca-de-nosotros.html">About</a>
+          </li>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </li>
+
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" data-dashlane-rid="79fc4d2a4c7e3c72" data-form-type="">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"
+            data-dashlane-rid="ec40ed41cd7a4102" data-form-type="">
+        </form>
+        <div class="text-end">
+          <a class="btn btn-outline-light me-2" href="./secciones/login.html" role="button">Login</a>
+          <a class="btn btn-warning" href="./secciones/crear-usuario.html" role="button">Sign-up</a>
+        </div>
+      </div>
+  </nav>
+
+
+  <main class="bacgroudIndex   ">
+    <div class="container-sm-12 container-md-6 container-lg-4  text-center pt-5 mb-5  ">
+      <h1 class=" 1animate__animated animate__heartBeat fs-1 text-light"> Encuentra el viaje de tus sueños
+      </h1>
+      <h2 class="fs-4 text-light ">
+        ¡Tu próxima aventura comienza aquí!
+      </h2>
+    </div>
+
+    <div class="container-md ">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <form>
+
+            <div class="d-md-flex  me-2 d-sm-block">
+              <div class="mb-3 form-check ">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Ida y Vuelta </label>
+              </div>
+
+              <div class="mb-3 form-check ">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Solo ida </label>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Multitrayectos </label>
+              </div>
+
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Origen</label>
+              <input type="text" class="form-control" placeholder="Ingresa ciudad">
+
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Destino</label>
+              <input type="text" class="form-control" placeholder="Ingresa ciudad">
+
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Fecha <br> Ida</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Vuelta</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="d-grid">
+
+              <button type="submit" class="btn btn-primary mb-5">
+                Buscar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="decorativo">
+    <span>
+      <hr /></span>
+  </div>
+
+
+
+  <!-- ---------------------------- GALERIA INDEX ---------------------------- -->
+
+  <section id="galeriaIndex" class="container">
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-12  ">
+        <img
+          src="https://images.pexels.com/photos/351283/pexels-photo-351283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src="https://cdn.pixabay.com/photo/2017/08/29/09/26/disney-2692578_960_720.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <img src="https://cdn.pixabay.com/photo/2017/04/29/03/28/cancun-2269936_960_720.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img
+          src="https://images.pexels.com/photos/2929906/pexels-photo-2929906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src="https://t4.ftcdn.net/jpg/00/00/87/31/240_F_873127_ijczrNtlHnpCijb70sFGvooqDEtl81.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src=" https://t4.ftcdn.net/jpg/03/15/41/61/240_F_315416167_CCRievpwazWEwdrgdJOZm6WlXPuYlwvo.jpg" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <div class="decorativo">
+    <span>
+      <hr /></span>
+  </div>
+
+
+
+
+  <!-- --------------------------- MEDIOS DE PAGOS --------------------------- -->
+
+
+  <section class="d-flex justify-content-center align-items-center container-fluid ">
+    
+    <div class=" pt-5">
+      <p class="text-center  fs-4">
+        ¡PAGA COMO <br />
+        QUIERAS!
+      </p>
+    </div>
+
+    <div class="  w-25 ">
+      <img src="https://www.querubin.cl/wp-content/uploads/2020/08/TTA_logo_redcompra_w.png" alt="medios de pagos"
+        width=100% >
+    </div>
+
+
+
+  </section>
+
+
+  <div class="container-fluid  " >
+      
+      <div class="row  d-lg-flex d-block text-center   ">
+        <div class=" col-12 col-lg-4  img-fluid  pt-5 align-middle ">
+          <img src="./imagenes/undraw_Travelers_re_y25a.svg" width="200" height="auto" class="img-fluid"  />
+          <h3 class=" pt-3">Somos expertos <br />en diverisión</h3>
+          <p class="fs-6 pt-2 text-wrap">
+            Llevamos más de 15 años <br />
+            llendote al Paraiso
+          </p>
+        </div>
+        <div class=" col-12 col-lg-4 img-fluid pt-5    align-middle ">
+          <img src="./imagenes/undraw_wallet_aym5.svg" width="200" height="auto"   alt="Dinero" class="img-fluid" />
+          <h3 class=" pt-3 text-wrap">
+            Atrapamos las <br>
+            mejores ofertas
+          </h3>
+        
+            <p class="fs-6 pt-2 text-wrap">
+              Queremos verte disfrutar más <br />
+              de tu tiempo libre.
+            </p>
+        
+        </div>
+        <div class=" col-12 col-lg-4  pt-5  align-middle ">
+          <img src="./imagenes/undraw_travel_plans_li01.svg" width="200" height="130" alt=" Luz" class="img-fluid" />
+          <h3 class=" pt-2">
+            Compartimos los <br />
+            mejores planes
+          </h3>
+        
+            <p class="fs-6 pt-2">
+              Nuestra comunidad <br> te ayuda a descubrir todo <br />
+              lo que te ofrece  <br> la vida más allá del sofá.
+            </p>
+        
+        </div>
+      </div>
+    
+  </div>
+
+
+  <section class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 col-11">
+
+        <div class=" w-75 text-light ms-5 ">
+          <img src="./imagenes/LogoMakr-1TST8n_auto_x2.png" width="200" height="100" alt="logo empresa"
+            class="img-fluid" />
+          <p class="tam-font">Danos el placer de llevarte a tu paraíso ideal, planifica tu viaje, en avión o recorre el
+            mar visitando los sitios turísitos mas hermosos del mundo, decide donde dormir, donde comer, que hacer, ten
+            el control de tu viaje, viaja con Travel Paraíso.</p>
+        </div>
+
+        <div class="container ms-4">
+          <img src="./imagenes/redes.svg" width="100px" height="100x" alt="" class="img-fluid">
+        </div>
+
+
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-12 mx-auto mt-3 fw-light    ">
+        <p class="text-light border-start border-warning ps-3">Navegación </p>
+        <ul class="border-start border-secondary ps-3 tam-font">
+          <li class=" "><a href="./index.html" class="#"> Vuelos</a></li>
+          <li class=""><a href="./secciones/hoteles.html" class="#"> Hoteles</a></li>
+          <li class=""><a href="./secciones/cruceros.html" class="#"> Cruceros</a></li>
+          <li class=""><a href="./secciones/mis-reservas.html" class="#"> Mis reservas</a></li>
+          <li class=""><a href="./secciones/contactanos.html" class="#"> Contactanos</a></li>
+          <li class=""><a href="./secciones/centro-ayuda.html" class="#"> Ayuda</a></li>
+          <li class=""><a href="./secciones/Terminos y condicines genereales.html" class="#"> Términos y condiciones</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-light   mt-3 ">
+        <p class="border-start border-warning ps-4 mb-2 "> Contacto</p>
+        <ul class="border-start border-secondary tam-font ">
+          <li class="border-bottom mb-2 w-75 "><img src="./imagenes/telefono-blanco.svg" width="20px"
+              alt="icono de teléfono" class="img-fluid mb-2 "> Teléfono: 800 123-45-678</li>
+          <li class="border-bottom w-75 "><img src="./imagenes/email.svg" width="20px" alt="icono de correo"
+              class="text-break"> Email: TravelParaiso@paraiso.com . </li>
+          <li class="  pt-2"><img src="./imagenes/ubicacion.svg" width="20px" alt="icono de ubicación"> ubicación: Avda Raul
+            Salamanca Jorquera 1650</li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center container-fluid">
+    <div class="container-fluid  ">
+      <hr>
+
+      <p> © copyright &copy; 2019-2023 Travel Paraíso, todos los derechos
+        reservados.</p>
+    </div>
+  </footer>
+ 
+
+
+
+
+
+
+
+  <!----------------------- IMPORTANDO JAVASCRIPT -------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
