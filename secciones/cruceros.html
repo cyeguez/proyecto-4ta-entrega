@@ -18,64 +18,65 @@
 <body>
 
   <header>
-    <div class="container-fluid barraTop ">
 
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../imagenes/LOGO.svg" width="150px" height="100px" alt=" logo empresa"
+            class="d-iline-block align-center">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="../index.html">Vuelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hoteles.html">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./cruceros.html">Cruceros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mis-reservas.html">Mis reservas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contactanos.html">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./acerca-de-nosotros.html">About</a>
+            </li>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+
+          </ul>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" data-dashlane-rid="79fc4d2a4c7e3c72" data-form-type="">
+            <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"
+              data-dashlane-rid="ec40ed41cd7a4102" data-form-type="">
+          </form>
+          <div class="text-end">
+            <a class="btn btn-outline-light me-2" href="./login.html" role="button">Login</a>
+            <a class="btn btn-warning" href="./crear-usuario.html" role="button">Sign-up</a>
+          </div>
+        </div>
+    </nav>
   </header>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid ">
-      <a class="navbar-brand" href="../index.html">
-        <img src="../imagenes/LOGO.svg" width="150px" height="100px" alt=" logo empresa"
-          class="d-iline-block align-center">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="../index.html">Vuelos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./hoteles.html">Hotel</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./cruceros.html">Cruceros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./mis-reservas.html">Mis reservas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contactanos.html">Contactanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./acerca-de-nosotros.html">About</a>
-          </li>
-
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-          </li>
-
-        </ul>
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" data-dashlane-rid="79fc4d2a4c7e3c72" data-form-type="">
-          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"
-            data-dashlane-rid="ec40ed41cd7a4102" data-form-type="">
-        </form>
-        <div class="text-end">
-          <a class="btn btn-outline-light me-2" href="./login.html" role="button">Login</a>
-          <a class="btn btn-warning" href="./crear-usuario.html" role="button">Sign-up</a>
-        </div>
-      </div>
-  </nav>
-
-  <main id="alturaCrucero" >
+  <main id="alturaCrucero">
 
     <section class="contenidoCrucero backgroudCrucero w-100   ">
 
@@ -207,7 +208,7 @@
 
 
 
- 
+
   <section class="container-fluid bg-dark mt-5">
     <div class="row">
       <div class="col-lg-4 col-md-12 col-sm-12 col-11">
@@ -247,7 +248,8 @@
               alt="icono de teléfono" class="img-fluid mb-2 "> Teléfono: 800 123-45-678</li>
           <li class="border-bottom w-75 "><img src="../imagenes/email.svg" width="20px" alt="icono de correo"
               class="text-break"> Email: TravelParaiso@paraiso.com . </li>
-          <li class="  pt-2"><img src="../imagenes/ubicacion.svg" width="20px" alt="icono de ubicación"> ubicación: Avda Raul
+          <li class="  pt-2"><img src="../imagenes/ubicacion.svg" width="20px" alt="icono de ubicación"> ubicación: Avda
+            Raul
             Salamanca Jorquera 1650</li>
         </ul>
 

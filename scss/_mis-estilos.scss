@@ -1,15 +1,6 @@
 header {
 
 
-    .barraTop {
-        grid-area: lgI;
-        height: 80px;
-        display: flex;
-        justify-content: space-between;
-        background-image: linear-gradient(to right bottom, #ffffff, #f5f5f7, #eaebef, #dfe1e8, #d4d7e0, #ccd2dc, #c2cdd8, #b9c8d4, #b1c6d1, #a9c4cc, #a2c2c6, #9dc0be);
-        align-items: center;
-        padding-right: 10px;
-    }
 
 }
 
@@ -26,8 +17,7 @@ header {
         background-position: center;
         background-attachment: fixed;
        
-
-
+        
     }
 
     #galeriaIndex {

@@ -11951,23 +11951,6 @@ fieldset:disabled .btn {
   }
 }
 
-header .barraTop {
-  grid-area: lgI;
-  height: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), color-stop(#f5f5f7), color-stop(#eaebef), color-stop(#dfe1e8), color-stop(#d4d7e0), color-stop(#ccd2dc), color-stop(#c2cdd8), color-stop(#b9c8d4), color-stop(#b1c6d1), color-stop(#a9c4cc), color-stop(#a2c2c6), to(#9dc0be));
-  background-image: linear-gradient(to right bottom, #ffffff, #f5f5f7, #eaebef, #dfe1e8, #d4d7e0, #ccd2dc, #c2cdd8, #b9c8d4, #b1c6d1, #a9c4cc, #a2c2c6, #9dc0be);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-right: 10px;
-}
-
 #alturaIndex {
   margin-bottom: 300px;
 }
