@@ -11951,8 +11951,105 @@ fieldset:disabled .btn {
   }
 }
 
+footer .itemFooter {
+  padding-left: 20px;
+}
+
+footer .itemFooter .mensajeBrand {
+  width: 75%;
+  text-align: justify;
+  color: white;
+  line-height: 20px;
+}
+
+footer .derechos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: gray solid 1px;
+  background-color: #212529;
+}
+
+.galeriaCruceros {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "crucero1 crucero2" "crucero3 crucero4";
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  margin-bottom: 10vh;
+}
+
+.galeriaCruceros .crucero1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: crucero1;
+}
+
+.galeriaCruceros .crucero2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: crucero2;
+}
+
+.galeriaCruceros .crucero3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: crucero3;
+}
+
+.galeriaCruceros .crucero4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: crucero4;
+}
+
+.cuerpoC {
+  margin: 0 auto;
+  width: 100%;
+  border: solid #bebebe 1px;
+}
+
+.cuerpoC img {
+  width: 100%;
+}
+
+.cuerpoC .cruceroText {
+  padding: 20px 0 0px 20px;
+}
+
+.cuerpoC .cruceroText #tamPrecio {
+  margin: 10px auto;
+  width: 50%;
+  word-wrap: word-break;
+}
+
+.cuerpoC .cruceroText .letraGrande {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cuerpoC .botonPrecio {
+  width: 24.375rem;
+  height: 1.875rem;
+  background-color: #29353e;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
 #alturaIndex {
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 .bacgroudIndex {
@@ -11960,8 +12057,6 @@ fieldset:disabled .btn {
   background-size: cover;
   width: 100%;
   height: 100vh;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 #galeriaIndex img {
@@ -11986,7 +12081,7 @@ fieldset:disabled .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 5vh;
+  margin-top: 1vh;
   margin-bottom: 5vh;
 }
 
@@ -12039,9 +12134,19 @@ fieldset:disabled .btn {
 main .backgroudCrucero {
   background-image: url("https://topadventure.com/__export/1597178843820/sites/laverdad/img/2020/08/11/mejores_cruceros_del_mundo_1.jpg_1766478952.jpg");
   width: 100%;
-  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+main .tIndex {
+  font-size: 25px;
+  color: white;
+}
+
+main .tIndex2 {
+  font-size: 15px;
+  color: white;
 }
 
 main .contactoCruceros {
@@ -12051,61 +12156,13 @@ main .contactoCruceros {
 main .contactoCruceros p {
   text-align: center;
   color: #29353e;
+  font-size: 15px;
 }
 
 main .contactoCruceros #tCrucero2 {
   font-weight: 900;
   color: #29353e;
   font-size: 25px;
-}
-
-main .galCrucero .card .card-body #tamPrecio {
-  margin: 0 auto;
-  width: 50%;
-  word-wrap: word-break;
-}
-
-main .galCrucero .card .card-body .letraGrande {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-main .galCrucero .card .card-body .botonPrecio {
-  width: 24.375rem;
-  height: 1.875rem;
-  background-color: #29353e;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-}
-
-main .galeriaCruceros {
-  margin-top: 8%;
-  width: 100%;
-  margin-bottom: 700px;
-}
-
-main .galeriaCruceros img {
-  height: 200px;
-  width: 400px;
-  margin: 10px;
-}
-
-main .galeriaCruceros div {
-  margin: 10px;
-}
-
-main .galeriaCrucero1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 main .precios {
@@ -12132,36 +12189,6 @@ main .precios1 p {
   margin: 5px;
 }
 
-main .galeriaCruceros2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-main .galeriaCruceros img {
-  margin-top: 50px;
-}
-
-main .galeriaCruceros2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 main .ayudaTerminosCruceros {
   width: 100%;
   height: 200px;
@@ -12181,7 +12208,7 @@ main .ayudaTerminosCruceros {
 
 /* ------------------------ CONTACTANOS ----------------------------------- */
 #tamCont {
-  height: 100vh;
+  height: 150vh;
   margin-top: 8vh;
 }
 
@@ -12235,8 +12262,13 @@ main .ayudaTerminosCruceros {
 /*                               PANTALLA CHICA  INICO                           */
 /* -------------------------------------------------------------------------- */
 @media (max-width: 575.98px) {
-  body {
-    background-color: #ff7676;
+  main .tIndex {
+    font-size: 15px;
+    color: white;
+  }
+  main .tIndex2 {
+    font-size: 12px;
+    color: white;
   }
   .widget1 {
     display: block;
@@ -12264,10 +12296,33 @@ main .ayudaTerminosCruceros {
   #tamPrecio {
     font-size: .6em;
   }
-  .estucturaContacto {
+  footer {
+    font-size: 10px;
+  }
+  footer .mensajeBrand {
+    width: 100%;
+    text-align: justify;
+    color: white;
+    line-height: 20px;
+  }
+  .galeriaCruceros {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: " p3  " "p4 " "p5" " p6 ";
+        grid-template-areas: "crucero1" "crucero2 " "crucero3" "crucero4";
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
+  }
+  .contactoCruceros {
+    margin-top: 20vh;
+  }
+  .contactoCruceros p {
+    text-align: center;
+    color: #29353e;
+  }
+  .contactoCruceros p #tCrucero2 {
+    font-weight: 500;
+    color: #29353e;
+    font-size: 10px !important;
   }
   .list-group {
     width: 90%;
@@ -12278,7 +12333,7 @@ main .ayudaTerminosCruceros {
   }
   .cuerpoNosotros p {
     width: 100%;
-    font-size: x-small;
+    font-size: 16px;
   }
   .intro-contactanos {
     text-align: justify;
@@ -12286,9 +12341,10 @@ main .ayudaTerminosCruceros {
   .tam {
     font-size: 9px;
   }
-  .tam-font {
-    font-size: 12px;
-    text-align: start;
+  .copyRight {
+    margin: 0;
+    color: white;
+    font-size: 8px;
   }
 }
 
@@ -12296,9 +12352,6 @@ main .ayudaTerminosCruceros {
 /*                               PANTALLA TABLET   INICIO                        */
 /* -------------------------------------------------------------------------- */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  body {
-    background-color: #73faab;
-  }
   .widget1 {
     display: block;
   }
@@ -12311,11 +12364,6 @@ main .ayudaTerminosCruceros {
   .card #tamPrecio {
     margin: 0 auto;
     width: 400px;
-  }
-  .estucturaContacto {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: " p3  " "p4 " "p5" " p6 ";
   }
   .list-group {
     width: 85%;
@@ -12330,7 +12378,7 @@ main .ayudaTerminosCruceros {
   }
   .cuerpoNosotros p {
     width: 100%;
-    font-size: small;
+    font-size: normal;
     text-align: justify;
     margin: 30 auto;
   }
@@ -12338,15 +12386,17 @@ main .ayudaTerminosCruceros {
     font-size: 14px;
     text-align: start;
   }
+  .copyRight {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+  }
 }
 
 /* -------------------------------------------------------------------------- */
 /*                               PANTALLA TABLET                           */
 /* -------------------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  body {
-    background-color: #ebb56f;
-  }
   .botonPrecio {
     width: 100px;
   }
@@ -12355,6 +12405,11 @@ main .ayudaTerminosCruceros {
     font-size: medium;
     text-align: justify;
     margin: 20px auto;
+  }
+  .copyRight {
+    margin: 0;
+    color: white;
+    font-size: 12px;
   }
 }
 
@@ -12382,81 +12437,18 @@ main .ayudaTerminosCruceros {
     border-left: solid gray;
     margin-top: 5px;
   }
+  .copyRight {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+  }
 }
 
-.seccionIndex {
-  margin-top: 500px;
-  width: 100%;
-  height: auto;
-  background-color: #29353e;
-}
-
-.seccionIndex .logoContacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-right: 20px;
-  padding-top: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.seccionIndex .seccionAyudaIndex ul {
-  list-style: none;
-  color: white;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.seccionIndex .seccionAyudaIndex li a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.seccionIndex .iRedesIndex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 80%;
-}
-
-.seccionIndex .iRedesIndex .tarjetas {
-  margin-left: 120px;
-}
-
-footer {
-  height: 15%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  padding-top: 20px;
-  font-size: 1.5vw;
-  color: #29353e;
-  background-color: white !important;
-  position: absolute;
-}
-
-body {
+body, img {
   margin: 0;
   pad: 0;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .justificado {
@@ -12470,5 +12462,24 @@ ul li {
 ul a {
   text-decoration: none;
   color: white;
+}
+
+.opacidad {
+  background-color: rgba(1, 12, 17, 0.281);
+  background-blend-mode: soft-light;
+}
+
+.alto {
+  height: 80vh;
+}
+
+.sombraTexto {
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.sombraCaja {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,79 @@
+.galeriaCruceros {
+    display: grid;
+    grid-template-areas:
+
+        "crucero1 crucero2"
+        "crucero3 crucero4"
+
+
+    ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    margin-bottom: 10vh;
+
+    .crucero1 {
+        grid-area: crucero1;
+
+    }
+
+    .crucero2 {
+        grid-area: crucero2;
+
+
+    }
+
+    .crucero3 {
+        grid-area: crucero3;
+
+
+    }
+
+    .crucero4 {
+        grid-area: crucero4;
+
+
+    }
+                               
+
+
+
+}
+
+.cuerpoC {
+    margin: 0 auto;
+    width: 100%;
+    border: solid rgb(190, 190, 190) 1px;
+
+    img {
+
+        width: 100%;
+    }
+
+    .cruceroText {
+        padding: 20px 0 0px 20px;
+
+        #tamPrecio {
+            margin: 10px auto;
+            width: 50%;
+            word-wrap: word-break
+        }
+
+        .letraGrande {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .botonPrecio {
+        width: 24.375rem;
+        height: 1.875rem;
+        background-color: #29353e;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+
+
+    }
+}

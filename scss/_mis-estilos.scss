@@ -1,11 +1,5 @@
-header {
-
-
-
-}
-
 #alturaIndex{
-   margin-bottom: 300px;
+   margin-bottom: 100px;
 }
 
    
@@ -14,8 +8,8 @@ header {
         background-size: cover;
         width: 100%;
         height: 100vh;
-        background-position: center;
-        background-attachment: fixed;
+      
+        
        
         
     }
@@ -43,7 +37,7 @@ header {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 5vh;
+        margin-top: 1vh;
         margin-bottom: 5vh;
 
 
@@ -108,24 +102,33 @@ header {
 
 /* -------------------------------- CRUCEROS -------------------------------- */
 
+
+
 #alturaCrucero{
     height: 350vh;
 } 
 
 main {
-  
+
 
 
     .backgroudCrucero {
         background-image: url("https://topadventure.com/__export/1597178843820/sites/laverdad/img/2020/08/11/mejores_cruceros_del_mundo_1.jpg_1766478952.jpg");
         width: 100%;
-        height: 60vh;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
     }
 
+    .tIndex{
+        font-size: 25px;
+        color: white;
 
-
+    } 
+    .tIndex2{
+        font-size: 15px;
+        color: white;
+    }
 
     .contactoCruceros {
         margin-top: 20vh;
@@ -133,6 +136,7 @@ main {
         p {
             text-align: center;
             color: #29353e;
+            font-size: 15px;
         }
 
         #tCrucero2 {
@@ -145,62 +149,7 @@ main {
 
 
 
-    .galCrucero {
-
-        .card {
-
-            .card-body {
-                #tamPrecio {
-                    margin: 0 auto;
-                    width: 50%;
-                    word-wrap: word-break
-                }
-
-
-                .letraGrande {
-                    font-size: 20px;
-                    font-weight: bold;
-                }
-
-                .botonPrecio {
-                    width: 24.375rem;
-                    height: 1.875rem;
-                    background-color: #29353e;
-                    color: white;
-                    text-align: center;
-                    line-height: 30px;
-
-                }
-            }
-        }
-    }
-
-
-
-    .galeriaCruceros {
-        margin-top: 8%;
-        width: 100%;
-        margin-bottom: 700px;
-    }
-
-    .galeriaCruceros img {
-
-        height: 200px;
-        width: 400px;
-        margin: 10px;
-    }
-
-    .galeriaCruceros div {
-        margin: 10px;
-    }
-
-    .galeriaCrucero1 {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-
-    }
-
+    
     .precios {
         display: flex;
         flex-flow: row wrap;
@@ -221,24 +170,7 @@ main {
 
 
 
-    .galeriaCruceros2 {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-
-    }
-
-    .galeriaCruceros img {
-        margin-top: 50px;
-    }
-
-
-
-    .galeriaCruceros2 {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
+    
 
     .ayudaTerminosCruceros {
         width: 100%;
@@ -272,7 +204,7 @@ main {
 /* ------------------------ CONTACTANOS ----------------------------------- */
 
 #tamCont{
-    height: 100vh;
+    height: 150vh;
     margin-top: 8vh;
 }
 
@@ -296,6 +228,7 @@ main {
         width: 50%;
         height: auto;
         margin-bottom: 30px;
+       
 
         margin-top: 5vh;
 

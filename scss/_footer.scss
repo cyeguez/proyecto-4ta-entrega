@@ -1,66 +1,32 @@
-.seccionIndex {
-    margin-top: 500px;
-    width: 100%;
-    height: auto;
-    background-color: #29353e;
-
-
-
-    .logoContacto {
-        display: flex;
-        justify-content: space-between;
-        padding-right: 20px;
-        padding-top: 20px;
-        align-items: center;
-
-    }
-
-    .seccionAyudaIndex {
-        ul {
-            list-style: none;
-            color: white;
-            font-size: 18px;
-            line-height: 30px;
-        }
-
-        li a {
-            color: white;
-            text-decoration: none;
-            font-size: 20px;
-        }
-
-    }
-
-
-
-
-    .iRedesIndex {
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
-
-        .tarjetas {
-            margin-left: 120px;
-        }
-
-    }
-
-
-}
-
-
 footer {
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding-top: 20px;
-    font-size: 1.5vw;
-    color: #29353e;
-    background-color: white !important;
-    position: absolute;
     
-}
+    .itemFooter{
+        padding-left: 20px;
+      
 
+        .mensajeBrand {
+            width: 75%;
+            text-align: justify;
+            color: white;
+           
+            line-height: 20px;
+    
+        }
+    }
+
+
+
+    .derechos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: gray solid 1px;
+        background-color: #212529;
+
+
+    }
+
+
+
+}

@@ -21,7 +21,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top  ">
       <div class="container-fluid ">
         <a class="navbar-brand" href="./index.html">
           <img src="./imagenes/LOGO.svg" width="150px" height="100px" alt=" logo empresa"
@@ -76,64 +76,59 @@
 
   </header>
 
-  <main class="bacgroudIndex " id="alturaIndex">
+  <main class="bacgroudIndex opacidad " id="alturaIndex">
     <div class="container-sm-12 container-md-6 container-lg-4  text-center pt-5 mb-5  ">
-      <h1 class=" 1animate__animated animate__heartBeat fs-1 text-light"> Encuentra el viaje de tus sueños
+      <h1 class=" 1animate__animated animate__heartBeat  tIndex "> Encuentra el viaje de tus sueños
       </h1>
-      <h2 class="fs-4 text-light ">
+      <h2 class="tIndex2 ">
         ¡Tu próxima aventura comienza aquí!
       </h2>
     </div>
 
-    <div class="container-md ">
+    <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-6">
-          <form>
-
-            <div class="d-md-flex  me-2 d-sm-block">
-              <div class="mb-3 form-check ">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Ida y Vuelta </label>
+     <div class="col-lg-4 col-md-5 col-sm-7 col-9">
+       
+            <form>
+              <div class="d-md-flex  me-2 d-sm-block">
+                <div class="mb-3 form-check ">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label text-light me-2" for="exampleCheck1 ">Ida y Vuelta </label>
+                </div>
+                <div class="mb-3 form-check ">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label text-light me-2" for="exampleCheck1 ">Solo ida </label>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label text-light me-2" for="exampleCheck1 ">Multitrayectos </label>
+                </div>
               </div>
-
-              <div class="mb-3 form-check ">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Solo ida </label>
+              <div class="row">
+                <div class="mb-3 col-12">
+                  <label for="" class="form-label text-light">Origen</label>
+                  <input type="text" class="form-control" placeholder="Ingresa ciudad">
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label text-light">Destino</label>
+                  <input type="text" class="form-control" placeholder="Ingresa ciudad">
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label text-light">Fecha <br> Ida</label>
+                  <input type="date" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label text-light">Vuelta</label>
+                  <input type="date" class="form-control">
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary mb-5">
+                    Buscar
+                  </button>
+                </div>
               </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label text-light me-2" for="exampleCheck1 ">Multitrayectos </label>
-              </div>
-
-            </div>
-
-            <div class="mb-3">
-              <label for="" class="form-label text-light">Origen</label>
-              <input type="text" class="form-control" placeholder="Ingresa ciudad">
-
-            </div>
-
-            <div class="mb-3">
-              <label for="" class="form-label text-light">Destino</label>
-              <input type="text" class="form-control" placeholder="Ingresa ciudad">
-
-            </div>
-
-            <div class="mb-3">
-              <label for="" class="form-label text-light">Fecha <br> Ida</label>
-              <input type="date" class="form-control">
-            </div>
-            <div class="mb-3">
-              <label for="" class="form-label text-light">Vuelta</label>
-              <input type="date" class="form-control">
-            </div>
-            <div class="d-grid">
-
-              <button type="submit" class="btn btn-primary mb-5">
-                Buscar
-              </button>
-            </div>
-          </form>
+            </form>
+     </div>
         </div>
       </div>
     </div>
@@ -149,11 +144,11 @@
 
   <!-- ---------------------------- GALERIA INDEX ---------------------------- -->
 
-  <section id="galeriaIndex" class="container">
+  <section id="galeriaIndex" class="container sombraCaja" >
 
     <div class="row">
 
-      <div class="col-lg-4 col-md-6 col-sm-12  ">
+      <div class="col-lg-4 col-md-6 col-sm-12 " ">
         <img
           src="https://images.pexels.com/photos/351283/pexels-photo-351283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
           alt="">
@@ -253,61 +248,64 @@
 
   </div>
 
+  <footer>
 
-  <section class="container-fluid bg-dark">
-    <div class="row">
-      <div class="col-lg-4 col-md-12 col-sm-12 col-11">
+    <section class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 itemFooter  ">
 
-        <div class=" w-75 text-light ms-5 ">
+
           <img src="./imagenes/LogoMakr-1TST8n_auto_x2.png" width="200" height="100" alt="logo empresa"
             class="img-fluid" />
-          <p class="tam-font">Danos el placer de llevarte a tu paraíso ideal, planifica tu viaje, en avión o recorre el
-            mar visitando los sitios turísitos mas hermosos del mundo, decide donde dormir, donde comer, que hacer, ten
-            el control de tu viaje, viaja con Travel Paraíso.</p>
+          <p class="mensajeBrand" >Danos el placer de llevarte a tu paraíso ideal, planifica tu viaje, en avión o recorre
+            el
+            mar visitando los sitios turísitos mas hermosos del mundo, decide donde dormir, donde comer, que hacer,
+            ten
+            el control de tu viaje, viaja con Travel Paraíso.
+          </p>
+          <img src="./imagenes/redes.svg" width="100px" height="100x" alt="" class="img-fluid" >
+         
+
+
+
+
+
+
         </div>
+        <div class="col-lg-2 mt-lg-5 col-md-6 mt-md-5 col-sm-6 mt-sm-5 col-12 mt-5  ">
+          <p class="text-light border-start border-warning ps-3">Navegación </p>
+          <ul class="border-start border-secondary ps-3 ">
+            <li class=" "><a href="./index.html" class="#"> Vuelos</a></li>
+            <li class=""><a href="./secciones/hoteles.html" class="#"> Hoteles</a></li>
+            <li class=""><a href="./secciones/cruceros.html" class="#"> Cruceros</a></li>
+            <li class=""><a href="./secciones/mis-reservas.html" class="#"> Mis reservas</a></li>
+            <li class=""><a href="./secciones/contactanos.html" class="#"> Contactanos</a></li>
+            <li class=""><a href="./secciones/centro-ayuda.html" class="#"> Ayuda</a></li>
+            <li class=""><a href="./secciones/Terminos y condicines genereales.html" class="#"> Términos y
+                condiciones</a>
+            </li>
+          </ul>
 
-        <div class="container ms-4">
-          <img src="./imagenes/redes.svg" width="100px" height="100x" alt="" class="img-fluid">
         </div>
+        <div class="col-lg-5 mt-lg-5 col-md-6 mt-md-5 col-sm-6 mt-sm-5 col-12 mt-5  text-white ">
+          <p class="border-start border-warning ps-3 mb-2 "> Contacto</p>
+          <ul class="border-start border-secondary tam-font ">
+            <li class="border-bottom mb-2 w-75 "><img src="./imagenes/telefono-blanco.svg" width="20px"
+                alt="icono de teléfono" class="img-fluid mb-2 "> Teléfono: 800 123-45-678</li>
+            <li class="border-bottom w-75 "><img src="./imagenes/email.svg" width="20px" alt="icono de correo"
+                class="text-break"> Email: TravelParaiso@paraiso.com . </li>
+            <li class="  pt-2"><img src="./imagenes/ubicacion.svg" width="20px" alt="icono de ubicación"> ubicación:
+              Avda Raul Salamanca Jorquera 1650</li>
+          </ul>
 
-
-
+        </div>
       </div>
-      <div class="col-lg-4 col-md-12 col-sm-12 col-12 mx-auto mt-3 fw-light    ">
-        <p class="text-light border-start border-warning ps-3">Navegación </p>
-        <ul class="border-start border-secondary ps-3 tam-font">
-          <li class=" "><a href="./index.html" class="#"> Vuelos</a></li>
-          <li class=""><a href="./secciones/hoteles.html" class="#"> Hoteles</a></li>
-          <li class=""><a href="./secciones/cruceros.html" class="#"> Cruceros</a></li>
-          <li class=""><a href="./secciones/mis-reservas.html" class="#"> Mis reservas</a></li>
-          <li class=""><a href="./secciones/contactanos.html" class="#"> Contactanos</a></li>
-          <li class=""><a href="./secciones/centro-ayuda.html" class="#"> Ayuda</a></li>
-          <li class=""><a href="./secciones/Terminos y condicines genereales.html" class="#"> Términos y condiciones</a>
-          </li>
-        </ul>
+    </section>
 
-      </div>
-      <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-light   mt-3 ">
-        <p class="border-start border-warning ps-4 mb-2 "> Contacto</p>
-        <ul class="border-start border-secondary tam-font ">
-          <li class="border-bottom mb-2 w-75 "><img src="./imagenes/telefono-blanco.svg" width="20px"
-              alt="icono de teléfono" class="img-fluid mb-2 "> Teléfono: 800 123-45-678</li>
-          <li class="border-bottom w-75 "><img src="./imagenes/email.svg" width="20px" alt="icono de correo"
-              class="text-break"> Email: TravelParaiso@paraiso.com . </li>
-          <li class="  pt-2"><img src="./imagenes/ubicacion.svg" width="20px" alt="icono de ubicación"> ubicación: Avda
-            Raul
-            Salamanca Jorquera 1650</li>
-        </ul>
-
-      </div>
-    </div>
-  </section>
-
-  <footer class="bg-dark text-light text-center container-fluid">
-    <div class="container-fluid  ">
+    <div class=" derechos ">
       <hr>
 
-      <p> © copyright &copy; 2019-2023 Travel Paraíso, todos los derechos
+      <p class="copyRight"> © copyright &copy; 2019-2023 Travel Paraíso, todos los derechos
         reservados.</p>
     </div>
   </footer>
