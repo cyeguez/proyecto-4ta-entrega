@@ -11951,6 +11951,12 @@ fieldset:disabled .btn {
   }
 }
 
+footer {
+  margin-top: 50px;
+  position: static;
+  bottom: 0;
+}
+
 footer .itemFooter {
   padding-left: 20px;
 }
@@ -12081,8 +12087,8 @@ footer .derechos {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 1vh;
-  margin-bottom: 5vh;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .decorativo hr {
@@ -12122,10 +12128,6 @@ footer .derechos {
   height: 800px;
 }
 
-.galeriaHoteles {
-  margin: 100px 50px;
-}
-
 /* -------------------------------- CRUCEROS -------------------------------- */
 #alturaCrucero {
   height: 350vh;
@@ -12150,7 +12152,7 @@ main .tIndex2 {
 }
 
 main .contactoCruceros {
-  margin-top: 20vh;
+  margin-top: 3rem;
 }
 
 main .contactoCruceros p {
@@ -12208,7 +12210,7 @@ main .ayudaTerminosCruceros {
 
 /* ------------------------ CONTACTANOS ----------------------------------- */
 #tamCont {
-  height: 150vh;
+  height: 80vh;
   margin-top: 8vh;
 }
 
@@ -12243,8 +12245,16 @@ main .ayudaTerminosCruceros {
 }
 
 /* ------------------------------ MIS RESERVAS ------------------------------ */
-#tamReserva {
-  height: 100vh;
+.tamReserva {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 100px;
+}
+
+.fondoReserva {
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/09/18/27/journey-1130732_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ---------------------------------- LOGIN --------------------------------- */
@@ -12444,7 +12454,7 @@ main .ayudaTerminosCruceros {
   }
 }
 
-body, img {
+body {
   margin: 0;
   pad: 0;
   font-family: 'Roboto', sans-serif;
